@@ -8,4 +8,4 @@ VS: Windows 10 - Visual Studio 2015
 GCC: Ubuntu 16.04.1 gcc 5.4.0
 
 # 강의 영상
-[YouTube | https://www.youtube.com/channel/UCToCbOboRQQA8LHm7tl8kIA]
+[YouTube](https://www.youtube.com/channel/UCToCbOboRQQA8LHm7tl8kIA)
