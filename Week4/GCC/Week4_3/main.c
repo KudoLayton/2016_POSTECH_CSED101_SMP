@@ -30,7 +30,7 @@ void main()
 				else
 					printf(" ");
 			}
-			putch(' ');
+			printf(" ");
 			for (j = 0; j<5; j++) {
 				if (j <= i)
 					printf("*");
