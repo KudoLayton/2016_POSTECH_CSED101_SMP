@@ -26,36 +26,36 @@ void main()
 		if (i<5) {
 			for (j = 0; j<5; j++) {
 				if ( i + j >= 4 )
-					putch('*');
+					printf("*");
 				else
-					putch(' ');
+					printf(" ");
 			}
 			putch(' ');
 			for (j = 0; j<5; j++) {
 				if (j <= i)
-					putch('*');
+					printf("*");
 				else
-					putch(' ');
+					printf(" ");
 			}
-			putch('\n');
+			printf("\n");
 		}
 		else if (i>5) {
 			for (j = 0; j<5; j++) {
 				if (j >= i - 6)
-					putch('*');
+					printf("*");
 				else
-					putch(' ');
+					printf(" ");
 			}
-			putch(' ');
+			printf(" ");
 			for (j = 0; j<5; j++) {
 				if (i + j <= 10)
-					putch('*');
+					printf("*");
 				else
-					putch(' ');
+					printf(" ");
 			}
-			putch('\n');
+			printf("\n");
 		}
 		else
-			putch('\n');
+			printf("\n");
 	}
 }
